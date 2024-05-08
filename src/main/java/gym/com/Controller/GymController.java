@@ -24,6 +24,7 @@ public class GymController extends HttpServlet{
 		String passwordl = request.getParameter("passwordl");
 		System.out.println(name+email+password+passwordl);
 		response.sendRedirect("main.html");
+		System.out.print(response);
 		
 	
 	}
